@@ -10,7 +10,12 @@ All information is based on the [RFC 9110 : HTTP Semantics](https://www.rfc-edit
 - 100% Developer Friendly :desktop_computer:
 
 ## Usage 🧰
-Simply import the HTTPCodes object...and use it! It's simple :)
+
+Simply install the npm package, import the HTTPCodes object...and use it! It's that simple :)
+### NPM Package
+```npm
+npm i simple-http-codes
+```
 
 ![demo](/example.gif)
 
@@ -20,6 +25,7 @@ Each HTTP Code has a jsdoc with:
   - a link providing detailed information
   - an optional "related" field for ambiguous status codes
     - i.e. Code 200 represents a successful response, but sometimes it's more appropriate to use 201 or 204
+
 ## Disclaimer ⚠️
 This is currently a work in progress project, more codes will be added, and descriptions improved.
 
