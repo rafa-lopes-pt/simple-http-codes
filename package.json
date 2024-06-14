@@ -1,0 +1,21 @@
+{
+	"name": "simple-http-codes",
+	"version": "1.0.0",
+	"description": "utility for http status codes",
+	"main": "index.ts",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/rafa-lopes-pt/simple-http-codes.git"
+	},
+	"keywords": [
+		"http-codes",
+		"http-status-codes"
+	],
+	"author": "Rafa Lopes",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/rafa-lopes-pt/simple-http-codes/issues"
+	},
+	"homepage": "https://github.com/rafa-lopes-pt/simple-http-codes#readme"
+}
