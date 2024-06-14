@@ -2,8 +2,10 @@
 	"name": "simple-http-codes",
 	"version": "1.0.0",
 	"description": "utility for http status codes",
+	"files": [
+		"index.ts"
+	],
 	"main": "index.ts",
-	"scripts": {},
 	"repository": {
 		"type": "git",
 		"url": "git+ssh://git@github.com/rafa-lopes-pt/simple-http-codes.git"
