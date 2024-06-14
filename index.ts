@@ -2,7 +2,7 @@ namespace HTTPCodes {
 	/**
 	 * 200 - 299
 	 */
-	export enum success {
+	export enum Success {
 		/**
 		 * The HTTP 200 OK success status response code indicates that the request has succeeded.
 		 * @link https://www.rfc-editor.org/rfc/rfc9110#section-15.3.1
@@ -19,7 +19,7 @@ namespace HTTPCodes {
 	/**
 	 * 400 - 499
 	 */
-	export enum clientError {
+	export enum ClientError {
 		BAD_REQUEST = 400,
 		UNAUTHORIZED,
 		PAYMENT_REQUIRED,
@@ -38,12 +38,11 @@ namespace HTTPCodes {
 	/**
 	 * 500 - 599
 	 */
-	export enum serverError {
+	export enum ServerError {
 		INTERNAL = 500,
 		NOT_IMPLEMENTED,
 		BAD_GATEWAY,
 		GATEWAY_TIMEOUT = 504,
 	}
 }
-
 export default HTTPCodes;
