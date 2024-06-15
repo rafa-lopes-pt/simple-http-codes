@@ -3,14 +3,15 @@
 	"version": "1.0.0",
 	"description": "utility for http status codes",
 	"files": [
-		"index.js"
+		"index.js",
+		"index.d.ts"
 	],
 	"repository": {
 		"type": "git",
 		"url": "git+ssh://git@github.com/rafa-lopes-pt/simple-http-codes.git"
 	},
 	"scripts": {
-		"build": "tsc index.ts"
+		"build": "tsc index.ts --declaration"
 	},
 	"keywords": [
 		"http-codes",
